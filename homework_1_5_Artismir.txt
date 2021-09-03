@@ -1,0 +1,15 @@
+  409  history 30
+  410  history 30 > hw2.txt
+  411  cat hw2.txt 
+  412  xs
+  413  cd
+  414  touch hw3.txt
+  415  chmo 666 hw3.txt
+  416  chmod 666 hw3.txt
+  417  ls -la
+  418  chmod uo+rwx hw3.txt
+  419  ls-la
+  420  ls -la
+  421  chmod g+s hw3.txt
+  422  ls -la
+  423  history 15 > hw3.txt

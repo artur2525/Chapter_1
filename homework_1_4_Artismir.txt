@@ -1,0 +1,30 @@
+  381  link ./abc/ file.txt
+  382  link ./xyz/ file.txt
+  383  cd abc
+  384  link ./xyz/ file.txt
+  385  link  file.txt ./xyz/
+  386  link  file.txt ./abc/
+  387  cd
+  388  cd xyz
+  389  link /home/Artismirnov/abc/file.txt somefile
+  390  clear
+  391  find /home/Artismirnov/abc/file.txt -inum inodenumber
+  392  df -i
+  393  cd
+  394  cd abc
+  395  df -i
+  396  ls -il file.txt
+  397  cd xyz
+  398  cd
+  399  cd xyz
+  400  find /home/Artismirnov/abc/file.txt -inum 37748983
+  401  find /home/Artismirnov/abc/file.txt -inum 37748983 -exec rm{}
+  402  find /home/Artismirnov/abc/file.txt -inum 37748983 -exec rm{} \;
+  403  find /home/Artismirnov/abc/file.txt -inum 37748983 -exec {} \;
+  404  history > hw2.txt
+  405  ls
+  406  cat hw2.txt 
+  407  tail hw2.txt
+  408  man history
+  409  history 30
+  410  history 30 > hw2.txt
